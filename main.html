@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -7,16 +5,15 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
 	<div>
 		<button data-ns-test="block-inline-button">Test1</button>
 		<button data-ns-test="block-inline-button">Test2</button>
 		Answer: Inline
 	</div>
 	<div>
-		<button data-ns-test="block-inline-div">Test1</div>
-		<button data-ns-test="block-inline-div">Test2</div>
-		Answer: block
+		<div data-ns-test="block-inline-div">Test1</div>
+		<div data-ns-test="block-inline-div">Test2</div>
+		Answer: Block
 	</div>
 	<div>
 		<span data-ns-test="block-inline-span">Test1</span>
@@ -26,11 +23,11 @@
 	<div>
 		<p data-ns-test="block-inline-p">Test1</p>
 		<p data-ns-test="block-inline-p">Test2</p>
-		Answer: block
+		Answer: Block
 	</div>
 	<div>
-		<input data-ns-test="block-inline-input">Test1</input>
-		<input data-ns-test="block-inline-input">Test2</input>
+		<input data-ns-test="block-inline-input">Test1
+		<input data-ns-test="block-inline-input">Test2
 		Answer: Inline
 	</div>
 	<div>
@@ -50,7 +47,7 @@
 	</div>
 	<div>
 		<sup data-ns-test="block-inline-sup">Test1</sup>
-		<sup data-ns-test="block-inline-sup">Test1</sup>
+		<sup data-ns-test="block-inline-sup">Test2</sup>
 		Answer: Inline
 	</div>
 	<div>
@@ -58,6 +55,7 @@
 		<sub data-ns-test="block-inline-sub">Test2</sub>
 		Answer: Inline
 	</div>
+	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
